@@ -1,0 +1,1163 @@
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels.fa --outfname /host/home/davi/Bureau/Nomut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          435.2           9.3
+              80        1            3.5           0.1
+              36        1            1.5           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 7 (0.001) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv3-43D01                 166      
+       hv3-4302                   90  (6)               87            hv3-4301 
+       hv3/OR16-1301             163      
+       hv1/OR21-101              163      
+       hv1/OR15-502               88  (4) 
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv3-64D06                 154      
+       hv3-6403                   39  (3)               68            hv3-6405 hv3-6404 
+       hv1/OR15-901              153      
+       hv2/OR16-501              151      
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-NL101                 137      
+       hv1-6901                   99      
+       hv1-6910                   15  (5)               96            hv1-6906 hv1-6909 hv1-6911 hv1-6908 hv1-6914 hv1-6913 hv1-6904 hv1-6902 hv1-6905 hv1-6912 
+       hv6-102                    92      
+       hv6-101                    77  (1) 
+       hv3/OR16-801               92      
+       hv3/OR16-802               83  (3) 
+       hv1-302                    89      
+       hv1-301                    58  (6) 
+       hv3-1601                   88      
+       hv3-1602                   78  (2) 
+       hv1-5802                   84      
+       hv1-5801                   77  (1) 
+       hv1-801                    81      
+       hv1-802                    71  (1) 
+       hv3-7302                   81      
+       hv3-7301                   76  (1) 
+       hv2-70D14                  79      
+       hv2-70D04                  62  (1)               52            hv2-7010 hv2-7001 hv2-7012 hv2-7011 hv2-7013 
+       hv4-38-202                 78      
+       hv4-38-201                 65  (1) 
+       hv3-7201                   75      
+       hv3-2002                   72      
+       hv3-2001                   71  (1) 
+       hv1-4601                   66      
+       hv1-4602                   51  (1)               46            hv1-4603 
+       hv3-3803                   66      
+       hv3-3801                   61  (2)               52            hv3-3802 
+       hv3-7403                   65      
+       hv3-7401                   54  (2)               50            hv3-7402 
+       hv1-69-201                 64      
+       hv3-6602                   61      
+       hv3-5302                   50  (6)              196            hv3-6603 hv3-5301 hv3-5304 hv3-6601 hv3-5303 hv3-6604 
+       hv3-902                    60      
+       hv3-901                    54  (1)               54            hv3-903 
+       hv3-703                    60      
+       hv3-701                    53  (1)               48            hv3-702 
+       hv4/OR15-802               59      
+       hv4/OR15-801               55  (3)               96            hv4-402 hv4/OR15-803 
+       hv3/OR16-1001              57      
+       hv3/OR16-1003              52  (3)               44            hv3/OR16-1002 
+       hv3-3004                   54      
+       hv3-30-302                 47  (2)              239            hv3-30-301 hv3-3305 hv3-3014 hv3-3015 hv3-3013 hv3-3009 hv3-3006 hv3-3008 hv3-3005 hv3-3019 hv3-3017 hv3-3016 hv3-3010 hv3-3012 hv3-3003 hv3-3011 hv3-3007 hv3-3002 hv3-3001 hv3-3018 
+       hv1-1804                   47      
+       hv1-1803                   34  (2)               33            hv1-1801 
+       hv5-10-104                 47      
+       hv5-10-101                 32  (1)               32            hv5-10-103 
+       hv3/OR15-705               46      
+       hv3/OR15-701               34  (1)               60            hv3/OR15-702 hv3/OR15-703 
+       hv3-2102                   45      
+       hv3-2101                   34  (1)               64            hv3-2104 hv3-2103 
+       hv3-4801                   43      
+       hv3-4802                   37  (1)               37            hv3-4804 
+       hv1-203                    42      
+       hv1-205                    32  (3)               77            hv1-201 hv1-202 hv1-204 
+       hv3-4803                   42      
+       hv1-4501                   42      
+       hv1-4502                   39  (1) 
+       hv1/OR15-103               42      
+       hv1/OR15-104               41  (2)               72            hv1/OR15-102 hv1/OR15-101 
+       hv3-6401                   39      
+       hv3-6402                   29  (2) 
+       hv5-5103                   35      
+       hv5-5102                   33  (3)               56            hv5-5101 hv5-5104 
+       hv3-2303                   35      
+       hv3-2305                   27  (3) 
+       hv3-4905                   34      
+       hv3-4902                   29  (6)               79            hv3-4903 hv3-4904 hv3-4901 
+       hv3-1304                   33      
+       hv3-1301                   30  (1)               75            hv3-1305 hv3-1302 hv3-1303 
+       hv4-3103                   32      
+       hv4-30-401                 25  (5)               53            hv4-30-402 hv4-3101 hv4-3104 hv4-3102 
+       hv3-2302                   32      
+       hv3-23D02                  29  (3)               29            hv3-23D01 
+       hv4-3901                   32      
+       hv4-3902                   26  (1)               49            hv4-3907 hv4-3905 hv4-3906 
+       hv3-1501                   32      
+       hv3-1502                   24  (1)               80            hv3-1505 hv3-1504 hv3-1506 hv3-1507 
+       hv4-2805                   31      
+       hv4-2807                   30  (2)               99            hv4-2806 hv4-2804 hv4-2803 hv4-2802 hv4-2801 
+       hv3-3304                   31      
+       hv3-3303                   27  (3)               73            hv3-3306 hv3-3301 hv3-3302 
+       hv4-30-407                 29      
+       hv2-501                    27      
+       hv2-504                    24  (1)               86            hv2-502 hv2-508 hv2-509 hv2-506 hv2-505 
+       hv7-4-102                  27      
+       hv7-4-104                  26  (1)               25            hv7-4-101 hv7-4-105 
+       hv3-1106                   27      
+       hv3-1103                   26  (2)               65            hv3-1105 hv3-1101 hv3-1104 
+       hv4-30-203                 26      
+       hv4-6103                   26      
+       hv4-6101                   18  (1)               11            hv4-6108 
+       hv4-30-201                 25      
+       hv4-30-205                 24  (4)               35            hv4-30-206 hv4-30-202 
+       hv4-5902                   24      
+       hv4-5901                   20  (1)               44            hv4-5908 hv4-5903 hv4-5907 hv4-408 
+       hv4-3401                   24      
+       hv4-3405                   12  (4)               33            hv4-3404 hv4-3412 hv4-3402 hv4-3408 
+       hv4-6105                   23      
+       hv4-30-204                 22      
+       hv4-6102                   21      
+       hv4-407                    20      
+       hv4-5906                   18      
+       hv4-30-406                 18      
+       hv3-1503                   17      
+       hv3-1508                   15  (6) 
+       hv4-6106                   17      
+       hv4-5910                   16      
+       hv4-3413                   15      
+       hv4-5904                   15      
+       hv4-5905                   11  (6) 
+       hv4-3105                   14      
+       hv2-7009                   13      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv2-7007                    5      
+       hv2-7002                    5  (1)               14            hv2-7003 hv2-7008 hv2-7006 
+       hv4-405                     5      
+       hv4-404                     5  (2) 
+       hv4-30-404                  5                     4            hv4-30-403 hv4-3107 
+       hv4-6104                    5      
+       none                        -                    11            hv4-3108 hv4-3109 hv4-3106 
+       none                        -                     8            hv4-3406 hv4-3403 hv4-3407 
+       none                        -                     1            hv4-3903 
+    keeping 139 v genes
+    removing 148 v genes: 23 with no matches, 125 with unconvincing matches (2433 / 10000 queries had their best match removed)
+        water time: 453.3
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          216.0           9.2
+              80        1            1.7           0.1
+              36        1            0.8           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 7 (0.001) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels/sw-cache-2536409692857913001
+    writing parameters (13.2 sec)
+        water time: 244.7
+  writing hmms (44.5 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (12.3 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 28.6
+      hmm step time: 150.0
+  writing hmms (44.9 sec)
+      total time: 937.7
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 7 (0.001) unproductive
+        water time: 5.5
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 11.0
+      hmm step time: 137.1
+      total time: 1080.7
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels_5Mut_out.fa --outfname /host/home/davi/Bureau/5mut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels_5Mut_out' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          437.2           9.7
+             409        1           17.5           0.4
+              34        1            1.5           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 349 (0.035) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv3-43D01                 166      
+       hv3-4302                   90  (6)               87            hv3-4301 
+       hv3/OR16-1301             163      
+       hv1/OR21-101              163      
+       hv1/OR15-502               88  (4) 
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv1/OR15-901              153      
+       hv3-64D06                 152      
+       hv3-6405                   41  (2)               68            hv3-6403 hv3-6404 
+       hv2/OR16-501              151      
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-NL101                 137      
+       hv1-6901                   99      
+       hv1-6910                   16  (5)               95            hv1-6906 hv1-6909 hv1-6911 hv1-6908 hv1-6914 hv1-6913 hv1-6904 hv1-6902 hv1-6905 hv1-6912 
+       hv6-102                    92      
+       hv6-101                    77  (1) 
+       hv3/OR16-801               91      
+       hv3/OR16-802               84  (3) 
+       hv1-302                    89      
+       hv1-301                    58  (6) 
+       hv3-1601                   89      
+       hv3-1602                   77  (2) 
+       hv1-801                    84      
+       hv1-802                    68  (1) 
+       hv1-5802                   83      
+       hv1-5801                   78  (1) 
+       hv3-7302                   81      
+       hv3-7301                   76  (1) 
+       hv2-70D14                  77      
+       hv2-70D04                  64  (1)               52            hv2-7010 hv2-7001 hv2-7012 hv2-7011 hv2-7013 
+       hv4-38-202                 75      
+       hv4-38-201                 68  (1) 
+       hv3-7201                   75      
+       hv3-2002                   72      
+       hv3-2001                   71  (1) 
+       hv1-4601                   67      
+       hv1-4602                   51  (1)               45            hv1-4603 
+       hv3-3803                   65      
+       hv3-3801                   60  (2)               54            hv3-3802 
+       hv3-7403                   64      
+       hv3-7401                   56  (2)               49            hv3-7402 
+       hv1-69-201                 64      
+       hv3-6602                   61      
+       hv3-5302                   50  (6)              196            hv3-6603 hv3-5301 hv3-5304 hv3-6601 hv3-5303 hv3-6604 
+       hv3-902                    60      
+       hv3-901                    56  (1)               52            hv3-903 
+       hv3-703                    60      
+       hv3-701                    53  (1)               48            hv3-702 
+       hv4/OR15-802               59      
+       hv4/OR15-801               56  (3)               95            hv4-402 hv4/OR15-803 hv4-401 
+       hv3/OR16-1001              57      
+       hv3/OR16-1003              52  (3)               44            hv3/OR16-1002 
+       hv3-3004                   54      
+       hv3-30-302                 47  (2)              239            hv3-30-301 hv3-3305 hv3-3010 hv3-3014 hv3-3015 hv3-3013 hv3-3006 hv3-3008 hv3-3009 hv3-3005 hv3-3017 hv3-3019 hv3-3012 hv3-3016 hv3-3003 hv3-3011 hv3-3001 hv3-3007 hv3-3002 hv3-3018 
+       hv3-2102                   47      
+       hv3-2104                   33  (2)               63            hv3-2103 hv3-2101 
+       hv5-10-104                 47      
+       hv5-10-101                 32  (1)               32            hv5-10-103 
+       hv1-1804                   46      
+       hv1-1801                   34  (1)               34            hv1-1803 
+       hv3/OR15-705               45      
+       hv3/OR15-701               35  (1)               60            hv3/OR15-702 hv3/OR15-703 
+       hv1-4501                   44      
+       hv1-4502                   37  (1) 
+       hv3-4801                   43      
+       hv3-4802                   37  (1)               37            hv3-4804 
+       hv1-203                    42      
+       hv1-205                    32  (3)               77            hv1-201 hv1-202 hv1-204 
+       hv3-4803                   42      
+       hv1/OR15-102               42      
+       hv1/OR15-103               41  (2)               72            hv1/OR15-104 hv1/OR15-101 
+       hv3-6401                   38      
+       hv3-6402                   30  (2) 
+       hv5-5103                   36      
+       hv5-5102                   34  (3)               54            hv5-5101 hv5-5104 
+       hv3-2303                   35      
+       hv3-2305                   27  (3) 
+       hv3-4905                   34      
+       hv3-4902                   29  (6)               79            hv3-4903 hv3-4904 hv3-4901 
+       hv3-1304                   33      
+       hv3-1301                   31  (1)               74            hv3-1305 hv3-1302 hv3-1303 
+       hv4-3103                   32      
+       hv4-30-401                 25  (5)               53            hv4-30-402 hv4-3101 hv4-3104 hv4-3102 
+       hv3-2302                   32      
+       hv3-23D02                  29  (3)               29            hv3-23D01 
+       hv4-2805                   31      
+       hv4-2807                   28  (2)              101            hv4-2806 hv4-2804 hv4-2803 hv4-2802 hv4-2801 
+       hv3-3304                   31      
+       hv3-3303                   27  (3)               73            hv3-3306 hv3-3301 hv3-3302 
+       hv4-3901                   30      
+       hv4-3902                   27  (1)               50            hv4-3907 hv4-3905 hv4-3906 
+       hv2-501                    29      
+       hv2-504                    22  (1)               86            hv2-502 hv2-508 hv2-509 hv2-506 hv2-505 
+       hv4-30-407                 29      
+       hv7-4-102                  27      
+       hv7-4-104                  25  (1)               26            hv7-4-101 hv7-4-105 
+       hv3-1106                   27      
+       hv3-1103                   26  (2)               65            hv3-1105 hv3-1101 hv3-1104 
+       hv4-6103                   27      
+       hv4-6101                   17  (1)               11            hv4-6108 
+       hv3-1501                   27      
+       hv3-1502                   25  (1)               84            hv3-1505 hv3-1504 hv3-1506 hv3-1507 
+       hv4-30-203                 26      
+       hv4-5902                   25      
+       hv4-5901                   18  (1)               45            hv4-5908 hv4-5907 hv4-5903 hv4-408 
+       hv4-30-205                 24      
+       hv4-30-201                 24  (4)               36            hv4-30-206 hv4-30-202 
+       hv4-6105                   23      
+       hv4-30-204                 22      
+       hv4-3401                   22      
+       hv4-3405                   12  (4)               34            hv4-3404 hv4-3402 hv4-3412 hv4-3408 
+       hv4-6102                   21      
+       hv4-407                    20      
+       hv4-5906                   18      
+       hv4-30-406                 18      
+       hv3-1503                   17      
+       hv3-1508                   15  (6) 
+       hv4-6106                   17      
+       hv4-5910                   16      
+       hv4-3413                   15      
+       hv4-5904                   15      
+       hv4-5905                   11  (6) 
+       hv4-3105                   14      
+       hv2-7009                   13      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv2-7007                    5      
+       hv2-7002                    5  (1)               14            hv2-7003 hv2-7008 hv2-7006 
+       hv4-405                     5      
+       hv4-404                     5  (2) 
+       hv4-3108                    5                    10            hv4-3109 hv4-30-403 hv4-3107 hv4-3106 
+       hv4-30-404                  5      
+       hv4-6104                    5      
+       none                        -                     9            hv4-3406 hv4-3403 hv4-3407 
+       none                        -                     1            hv4-3903 
+    keeping 140 v genes
+    removing 147 v genes: 22 with no matches, 125 with unconvincing matches (2433 / 10000 queries had their best match removed)
+        water time: 470.0
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          218.3           9.1
+             409        1            8.6           0.4
+              34        1            0.7           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 349 (0.035) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_5Mut_out/sw-cache-2536409692857913001
+    writing parameters (9.0 sec)
+        water time: 250.0
+  writing hmms (44.1 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (8.8 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 24.7
+      hmm step time: 149.5
+  writing hmms (43.4 sec)
+      total time: 957.3
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_5Mut_out/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 349 (0.035) unproductive
+        water time: 5.5
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 11.1
+      hmm step time: 140.5
+      total time: 1103.8
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels_10Mut_out.fa --outfname /host/home/davi/Bureau/10mut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels_10Mut_out' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          432.3           9.2
+             822        1           34.7           0.7
+              35        1            1.4           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 759 (0.076) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv3-43D01                 166      
+       hv3-4302                   90  (6)               87            hv3-4301 
+       hv3/OR16-1301             163      
+       hv1/OR21-101              163      
+       hv1/OR15-502               88  (4) 
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv1/OR15-901              153      
+       hv2/OR16-501              151      
+       hv3-64D06                 150      
+       hv3-6405                   43  (2)               68            hv3-6403 hv3-6404 
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-NL101                 137      
+       hv1-6901                   95      
+       hv1-6910                   15  (5)              100            hv1-6911 hv1-6906 hv1-6909 hv1-6908 hv1-6913 hv1-6905 hv1-6914 hv1-6902 hv1-6904 hv1-6912 
+       hv6-102                    93      
+       hv6-101                    76  (1) 
+       hv3/OR16-801               92      
+       hv3/OR16-802               83  (3) 
+       hv1-302                    89      
+       hv1-301                    58  (6) 
+       hv1-801                    88      
+       hv1-802                    64  (1) 
+       hv3-1601                   86      
+       hv3-1602                   80  (2) 
+       hv1-5801                   84      
+       hv1-5802                   77  (1) 
+       hv3-7302                   83      
+       hv3-7301                   74  (1) 
+       hv4-38-202                 76      
+       hv4-38-201                 67  (1) 
+       hv3-7201                   75      
+       hv2-70D14                  75      
+       hv2-70D04                  66  (1)               53            hv2-7010 hv2-7001 hv2-7012 hv2-7011 hv2-7013 
+       hv3-2002                   74      
+       hv3-2001                   69  (1) 
+       hv1-4601                   65      
+       hv1-4602                   53  (1)               45            hv1-4603 
+       hv1-69-201                 64      
+       hv3-7403                   62      
+       hv3-7401                   58  (2)               49            hv3-7402 
+       hv3-3803                   62      
+       hv3-3801                   60  (2)               57            hv3-3802 
+       hv3-902                    61      
+       hv3-903                    54  (2)               53            hv3-901 
+       hv3-6602                   61      
+       hv3-5302                   51  (6)              195            hv3-6603 hv3-5301 hv3-5304 hv3-6601 hv3-5303 hv3-6604 
+       hv3-703                    61      
+       hv3-701                    53  (1)               47            hv3-702 
+       hv4/OR15-802               59      
+       hv4/OR15-801               55  (3)               95            hv4-402 hv4/OR15-803 hv4-401 
+       hv3/OR16-1001              56      
+       hv3/OR16-1003              52  (3)               45            hv3/OR16-1002 
+       hv3-3004                   49      
+       hv3-30-302                 47  (2)              244            hv3-30-301 hv3-3305 hv3-3014 hv3-3009 hv3-3013 hv3-3010 hv3-3015 hv3-3006 hv3-3008 hv3-3017 hv3-3005 hv3-3019 hv3-3003 hv3-3016 hv3-3012 hv3-3001 hv3-3011 hv3-3007 hv3-3002 hv3-3018 
+       hv1-1804                   47      
+       hv1-1801                   34  (1)               33            hv1-1803 
+       hv5-10-104                 47      
+       hv5-10-103                 33  (2)               31            hv5-10-101 
+       hv3-2102                   46      
+       hv3-2104                   34  (2)               63            hv3-2101 hv3-2103 
+       hv3/OR15-705               45      
+       hv3/OR15-701               35  (1)               60            hv3/OR15-702 hv3/OR15-703 
+       hv1-203                    43      
+       hv1-205                    33  (3)               75            hv1-201 hv1-202 hv1-204 
+       hv1/OR15-103               43      
+       hv1/OR15-104               41  (2)               71            hv1/OR15-102 hv1/OR15-101 
+       hv3-4801                   42      
+       hv3-4804                   38  (1)               37            hv3-4802 
+       hv3-4803                   42      
+       hv1-4501                   41      
+       hv1-4502                   40  (1) 
+       hv3-6401                   38      
+       hv3-6402                   30  (2) 
+       hv3-1304                   35      
+       hv3-1301                   28  (1)               75            hv3-1305 hv3-1302 hv3-1303 
+       hv3-2303                   35      
+       hv3-2305                   27  (3) 
+       hv3-4905                   34      
+       hv3-4902                   29  (6)               79            hv3-4904 hv3-4903 hv3-4901 
+       hv5-5102                   33      
+       hv5-5103                   33  (3)               58            hv5-5101 hv5-5104 
+       hv4-3103                   33      
+       hv4-30-401                 24  (5)               52            hv4-30-402 hv4-3104 hv4-3101 hv4-3102 
+       hv3-2302                   32      
+       hv3-23D02                  29  (3)               29            hv3-23D01 
+       hv4-2805                   31      
+       hv4-2807                   27  (2)              102            hv4-2806 hv4-2804 hv4-2803 hv4-2802 hv4-2801 
+       hv3-3304                   31      
+       hv3-3306                   27  (2)               73            hv3-3301 hv3-3303 hv3-3302 
+       hv4-3901                   31      
+       hv4-3902                   28  (1)               48            hv4-3907 hv4-3906 hv4-3905 
+       hv3-1501                   31      
+       hv3-1505                   24  (1)               81            hv3-1502 hv3-1504 hv3-1506 hv3-1507 
+       hv4-30-407                 29      
+       hv4-6103                   28      
+       hv4-6101                   15  (1)               12            hv4-6108 
+       hv3-1106                   27      
+       hv3-1103                   25  (2)               66            hv3-1105 hv3-1101 hv3-1104 
+       hv7-4-102                  26      
+       hv7-4-104                  26  (1)               26            hv7-4-101 hv7-4-105 
+       hv4-30-203                 26      
+       hv4-3401                   25      
+       hv4-3404                   13  (2)               32            hv4-3405 hv4-3402 hv4-3412 hv4-3408 
+       hv2-504                    25      
+       hv2-501                    24  (1)               88            hv2-502 hv2-508 hv2-509 hv2-506 hv2-505 
+       hv4-30-201                 25      
+       hv4-30-205                 24  (4)               35            hv4-30-206 hv4-30-202 
+       hv4-5902                   24      
+       hv4-5901                   19  (1)               45            hv4-5908 hv4-5903 hv4-5907 hv4-408 
+       hv4-6105                   23      
+       hv4-30-204                 22      
+       hv4-6102                   21      
+       hv4-407                    20      
+       hv4-5906                   18      
+       hv4-30-406                 18      
+       hv3-1503                   17      
+       hv3-1508                   15  (6) 
+       hv4-6106                   17      
+       hv4-5910                   16      
+       hv4-3413                   15      
+       hv4-5904                   15      
+       hv4-5905                   11  (6) 
+       hv4-3105                   14      
+       hv2-7009                   13      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv2-7002                    5      
+       hv2-7003                    5  (4)               13            hv2-7008 hv2-7007 hv2-7006 
+       hv4-404                     5                     5            hv4-405 hv4-403 
+       hv4-30-404                  5                     8            hv4-30-403 hv4-3106 hv4-3107 
+       hv4-6104                    5      
+       none                        -                     8            hv4-3109 hv4-3108 
+       none                        -                     7            hv4-3406 hv4-3403 hv4-3407 
+       none                        -                     1            hv4-406 
+       none                        -                     1            hv4-3903 
+    keeping 138 v genes
+    removing 149 v genes: 20 with no matches, 129 with unconvincing matches (2452 / 10000 queries had their best match removed)
+        water time: 481.8
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          210.3           8.9
+             822        1           17.4           0.8
+              35        1            0.7           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 759 (0.076) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_10Mut_out/sw-cache-2536409692857913001
+    writing parameters (7.3 sec)
+        water time: 249.0
+  writing hmms (43.4 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (6.9 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 22.5
+      hmm step time: 144.1
+  writing hmms (42.2 sec)
+      total time: 960.8
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_10Mut_out/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 759 (0.076) unproductive
+        water time: 5.2
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 10.4
+      hmm step time: 133.4
+      total time: 1099.7
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels_20Mut_out.fa --outfname /host/home/davi/Bureau/20mut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels_20Mut_out' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          417.3           8.2
+            1619        1           67.7           1.4
+              33        1            1.4           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 1572 (0.157) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv3-43D01                 165      
+       hv3-4302                   90  (6)               88            hv3-4301 
+       hv3/OR16-1301             163      
+       hv1/OR21-101              163      
+       hv1/OR15-502               88  (4) 
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv1/OR15-901              153      
+       hv3-64D06                 151      
+       hv3-6403                   41  (3)               69            hv3-6405 hv3-6404 
+       hv2/OR16-501              151      
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-NL101                 137      
+       hv1-6901                   94      
+       hv1-6906                   16  (1)              100            hv1-6910 hv1-6911 hv1-6909 hv1-6914 hv1-6913 hv1-6908 hv1-6902 hv1-6912 hv1-6904 hv1-6905 
+       hv1-801                    92      
+       hv1-802                    60  (1) 
+       hv6-102                    92      
+       hv6-101                    77  (1) 
+       hv3/OR16-801               90      
+       hv3/OR16-802               85  (3) 
+       hv1-302                    89      
+       hv1-301                    58  (6) 
+       hv1-5801                   88      
+       hv1-5802                   73  (1) 
+       hv3-1601                   87      
+       hv3-1602                   79  (2) 
+       hv3-7302                   83      
+       hv3-7301                   74  (1) 
+       hv3-2002                   77      
+       hv3-2001                   66  (1) 
+       hv4-38-202                 77      
+       hv4-38-201                 66  (1) 
+       hv3-7201                   75      
+       hv2-70D14                  74      
+       hv2-70D04                  68  (1)               51            hv2-7010 hv2-7001 hv2-7012 hv2-7013 hv2-7011 
+       hv1-4601                   68      
+       hv1-4602                   52  (1)               43            hv1-4603 
+       hv3-3803                   65      
+       hv3-3802                   58  (1)               56            hv3-3801 
+       hv3-7401                   65      
+       hv3-7403                   54  (2)               50            hv3-7402 
+       hv3-902                    64      
+       hv3-901                    53  (1)               51            hv3-903 
+       hv1-69-201                 64      
+       hv3-703                    62      
+       hv3-701                    54  (1)               45            hv3-702 
+       hv3-6602                   61      
+       hv3-5302                   52  (6)              194            hv3-6603 hv3-5304 hv3-5301 hv3-5303 hv3-6601 hv3-6604 
+       hv4/OR15-802               59      
+       hv4/OR15-801               58  (3)               92            hv4-402 hv4/OR15-803 hv4-401 
+       hv3/OR16-1001              54      
+       hv3/OR16-1003              50  (3)               49            hv3/OR16-1002 
+       hv1-1804                   51      
+       hv1-1801                   37  (1)               26            hv1-1803 
+       hv3-2102                   51      
+       hv3-2104                   36  (2)               56            hv3-2103 hv3-2101 
+       hv3-30-302                 50      
+       hv3-3004                   48  (2)              241            hv3-30-301 hv3-3010 hv3-3305 hv3-3014 hv3-3009 hv3-3006 hv3-3013 hv3-3008 hv3-3019 hv3-3015 hv3-3003 hv3-3017 hv3-3016 hv3-3005 hv3-3012 hv3-3007 hv3-3011 hv3-3001 hv3-3002 hv3-3018 
+       hv5-10-104                 47      
+       hv5-10-103                 33  (2)               31            hv5-10-101 
+       hv3-4802                   46      
+       hv3-4804                   37  (2)               34            hv3-4801 
+       hv1/OR15-103               43      
+       hv1/OR15-102               42  (2)               70            hv1/OR15-104 hv1/OR15-101 
+       hv3-4803                   42      
+       hv3/OR15-705               42      
+       hv3/OR15-701               34  (1)               64            hv3/OR15-703 hv3/OR15-702 
+       hv1-203                    41      
+       hv1-205                    35  (3)               75            hv1-201 hv1-204 hv1-202 
+       hv1-4502                   41      
+       hv1-4501                   40  (1) 
+       hv5-5103                   41      
+       hv5-5102                   34  (3)               49            hv5-5101 hv5-5104 
+       hv3-1304                   37      
+       hv3-1305                   28  (2)               73            hv3-1301 hv3-1302 hv3-1303 
+       hv3-6401                   36      
+       hv3-6402                   32  (2) 
+       hv3-2303                   36      
+       hv3-2305                   26  (3) 
+       hv4-3103                   33      
+       hv4-30-401                 25  (5)               53            hv4-30-402 hv4-3101 hv4-3104 hv4-3102 
+       hv4-6103                   32      
+       hv4-6101                   12  (1)               11            hv4-6108 
+       hv3-2302                   32      
+       hv3-23D02                  29  (3)               29            hv3-23D01 
+       hv4-3901                   32      
+       hv4-3902                   26  (1)               48            hv4-3907 hv4-3906 hv4-3905 
+       hv3-4905                   32      
+       hv3-4903                   31  (1)               79            hv3-4902 hv3-4904 hv3-4901 
+       hv4-2805                   31      
+       hv4-2806                   27  (4)              102            hv4-2807 hv4-2804 hv4-2803 hv4-2802 hv4-2801 
+       hv3-3304                   31      
+       hv3-3306                   28  (2)               73            hv3-3301 hv3-3303 hv3-3302 
+       hv4-30-407                 29      
+       hv3-1502                   28      
+       hv3-1501                   25  (1)               83            hv3-1505 hv3-1506 hv3-1504 hv3-1507 
+       hv7-4-102                  27      
+       hv7-4-104                  25  (1)               26            hv7-4-101 hv7-4-105 
+       hv3-1103                   26      
+       hv3-1106                   26  (2)               66            hv3-1105 hv3-1101 hv3-1104 
+       hv4-5902                   26      
+       hv4-5901                   21  (1)               41            hv4-5908 hv4-408 hv4-5907 hv4-5903 
+       hv2-501                    26      
+       hv2-504                    23  (1)               88            hv2-502 hv2-508 hv2-506 hv2-509 hv2-505 
+       hv4-30-203                 26      
+       hv4-30-201                 25      
+       hv4-30-205                 24  (4)               36            hv4-30-206 hv4-30-202 
+       hv4-6105                   23      
+       hv4-6102                   21      
+       hv4-30-204                 21      
+       hv4-407                    20      
+       hv4-3401                   19      
+       hv4-3405                   13  (4)               39            hv4-3402 hv4-3404 hv4-3408 hv4-3412 
+       hv4-5906                   18      
+       hv3-1503                   17      
+       hv3-1508                   15  (6) 
+       hv4-6106                   17      
+       hv4-5910                   16      
+       hv4-30-406                 16      
+       hv4-5904                   15      
+       hv4-5905                   11  (6) 
+       hv4-3105                   14      
+       hv2-7009                   13      
+       hv4-3413                   13      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv4-404                     6                     5            hv4-405 hv4-403 
+       hv2-7007                    5      
+       hv2-7003                    5  (5)               14            hv2-7002 hv2-7008 hv2-7006 
+       hv4-3108                    5                    10            hv4-3109 hv4-3106 hv4-30-403 
+       hv4-6104                    5      
+       none                        -                     4            hv4-30-404 
+       none                        -                     8            hv4-3407 hv4-3406 hv4-3403 
+       none                        -                     2            hv4-3903 
+       none                        -                     2            hv4-30-405 
+    keeping 138 v genes
+    removing 149 v genes: 21 with no matches, 128 with unconvincing matches (2426 / 10000 queries had their best match removed)
+        water time: 499.8
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          208.8           8.4
+            1617        1           33.0           1.4
+              33        1            0.7           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 1570 (0.157) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_20Mut_out/sw-cache-2536409692857913001
+    writing parameters (5.5 sec)
+        water time: 261.6
+  writing hmms (42.0 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (5.2 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 21.0
+      hmm step time: 145.5
+  writing hmms (42.4 sec)
+      total time: 991.7
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_20Mut_out/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 1570 (0.157) unproductive
+        water time: 5.4
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 10.6
+      hmm step time: 141.6
+      total time: 1139.1
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels_40Mut_out.fa --outfname /host/home/davi/Bureau/40mut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels_40Mut_out' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          423.9           8.0
+            3107        1          131.1           2.9
+              34        1            1.4           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 3072 (0.307) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv3-43D01                 164      
+       hv3-4302                   90  (6)               89            hv3-4301 
+       hv3/OR16-1301             163      
+       hv1/OR21-101              163      
+       hv1/OR15-502               88  (4) 
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv1/OR15-901              153      
+       hv2/OR16-501              151      
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-64D06                 139      
+       hv3-6405                   53  (2)               69            hv3-6403 hv3-6404 
+       hv3-NL101                 137      
+       hv1-5801                   99      
+       hv1-5802                   62  (1) 
+       hv1-801                    96      
+       hv1-802                    56  (1) 
+       hv6-102                    92      
+       hv6-101                    77  (1) 
+       hv3/OR16-801               90      
+       hv3/OR16-802               85  (3) 
+       hv1-302                    89      
+       hv1-301                    58  (6) 
+       hv3-1602                   88      
+       hv3-1601                   78  (2) 
+       hv3-7302                   84      
+       hv3-7301                   73  (1) 
+       hv4-38-202                 80      
+       hv4-38-201                 63  (1) 
+       hv1-6901                   75      
+       hv1-6912                   18  (1)              117            hv1-6910 hv1-6906 hv1-6909 hv1-6911 hv1-6913 hv1-6908 hv1-6905 hv1-6914 hv1-6904 hv1-6902 
+       hv2-70D14                  75      
+       hv2-70D04                  68  (1)               53            hv2-7010 hv2-7001 hv2-7012 hv2-7013 hv2-7011 
+       hv3-2002                   74      
+       hv3-2001                   69  (1) 
+       hv3-7201                   73      
+       hv1-4601                   73      
+       hv1-4602                   49  (1)               41            hv1-4603 
+       hv3-3803                   67      
+       hv3-3802                   60  (1)               52            hv3-3801 
+       hv3-7401                   67      
+       hv3-7403                   52  (2)               50            hv3-7402 
+       hv1-69-201                 64      
+       hv4/OR15-802               64      
+       hv4/OR15-801               62  (3)               81            hv4-402 hv4/OR15-803 hv4-401 
+       hv3-902                    63      
+       hv3-901                    53  (1)               52            hv3-903 
+       hv3-6602                   61      
+       hv3-5302                   52  (6)              194            hv3-6603 hv3-5304 hv3-6601 hv3-5301 hv3-5303 hv3-6604 
+       hv3-703                    61      
+       hv3-701                    55  (1)               45            hv3-702 
+       hv3-4802                   57      
+       hv3-4804                   38  (2)               21            hv3-4801 
+       hv3/OR16-1001              53      
+       hv3/OR16-1002              51  (1)               49            hv3/OR16-1003 
+       hv3-2102                   50      
+       hv3-2104                   36  (2)               57            hv3-2101 hv3-2103 
+       hv1/OR15-102               50      
+       hv1/OR15-103               42  (2)               63            hv1/OR15-104 hv1/OR15-101 
+       hv3/OR15-705               50      
+       hv3/OR15-701               33  (1)               57            hv3/OR15-702 hv3/OR15-703 
+       hv1-1801                   47      
+       hv1-1804                   40  (1)               27            hv1-1803 
+       hv5-10-104                 45      
+       hv5-10-103                 34  (2)               32            hv5-10-101 
+       hv3-30-302                 44      
+       hv3-3004                   44  (2)              295            hv3-30-301 hv3-3010 hv3-3305 hv3-3302 hv3-3009 hv3-3306 hv3-3014 hv3-3015 hv3-3005 hv3-3006 hv3-3019 hv3-3017 hv3-3013 hv3-3008 hv3-3003 hv3-3012 hv3-3001 hv3-3007 hv3-3011 hv3-3016 hv3-3002 hv3-3018 
+       hv1-4502                   43      
+       hv1-4501                   38  (1) 
+       hv3-4803                   43      
+       hv1-203                    41      
+       hv1-205                    38  (3)               72            hv1-201 hv1-204 hv1-202 
+       hv4-3103                   39      
+       hv4-30-401                 29  (5)               52            hv4-30-402 hv4-3104 hv4-3101 hv4-3102 
+       hv3-2303                   39      
+       hv3-2305                   22  (3) 
+       hv3-6401                   37      
+       hv3-6402                   31  (2) 
+       hv5-5103                   36      
+       hv5-5102                   33  (3)               55            hv5-5101 hv5-5104 
+       hv3-1505                   35      
+       hv3-1502                   29  (2)               72            hv3-1504 hv3-1506 hv3-1507 hv3-1501 
+       hv3-1304                   34      
+       hv3-1301                   31  (1)               73            hv3-1305 hv3-1302 hv3-1303 
+       hv3-23D02                  33      
+       hv3-2302                   33  (3)               25            hv3-23D01 
+       hv4-6103                   33      
+       hv4-6101                   13  (1)                9            hv4-6108 
+       hv3-3303                   32      
+       hv3-3304                   31  (3)               25            hv3-3301 
+       hv3-4903                   32      
+       hv3-4904                   31  (1)               79            hv3-4905 hv3-4902 hv3-4901 
+       hv4-3902                   30      
+       hv4-3901                   26  (1)               50            hv4-3907 hv4-3905 hv4-3906 
+       hv7-4-102                  29      
+       hv7-4-101                  21  (1)               28            hv7-4-104 hv7-4-105 
+       hv4-2806                   29      
+       hv4-2805                   28  (4)              103            hv4-2804 hv4-2807 hv4-2803 hv4-2802 hv4-2801 
+       hv4-30-407                 29      
+       hv3-1105                   28      
+       hv3-1103                   25  (1)               65            hv3-1106 hv3-1101 hv3-1104 
+       hv4-30-206                 26      
+       hv4-30-205                 23  (5)               35            hv4-30-201 hv4-30-202 
+       hv4-30-203                 26      
+       hv2-501                    24      
+       hv2-504                    23  (1)               90            hv2-502 hv2-505 hv2-508 hv2-509 hv2-506 
+       hv4-6105                   23      
+       hv4-30-204                 22      
+       hv4-5902                   21      
+       hv4-5908                   19  (3)               74            hv4-5901 hv4-5904 hv4-5903 hv4-5905 hv4-5907 hv4-408 
+       hv4-6102                   21      
+       hv4-407                    20      
+       hv4-5906                   18      
+       hv4-3401                   17      
+       hv4-3402                   13  (1)               40            hv4-3405 hv4-3404 hv4-3412 hv4-3408 
+       hv3-1503                   17      
+       hv3-1508                   15  (6) 
+       hv4-5910                   16      
+       hv4-6106                   16                     1            hv4-6107 
+       hv4-30-406                 14      
+       hv4-3105                   14      
+       hv2-7009                   13      
+       hv4-3413                   13      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv2-7007                    6                    15            hv2-7006 hv2-7002 hv2-7008 hv2-7003 
+       hv4-405                     6                     3            hv4-404 hv4-403 
+       hv4-3403                    5                     4            hv4-3406 hv4-3407 
+       hv4-30-404                  5                     2            hv4-30-403 hv4-3107 
+       hv4-6104                    5      
+       none                        -                     4            hv4-406 
+       none                        -                     2            hv4-3903 
+       none                        -                     6            hv4-3108 hv4-3109 hv4-3106 
+       none                        -                     2            hv3-7202 
+       none                        -                     1            hv4-30-405 
+    keeping 136 v genes
+    removing 151 v genes: 17 with no matches, 134 with unconvincing matches (2431 / 10000 queries had their best match removed)
+        water time: 571.2
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          206.6           7.9
+            3106        1           62.5           2.9
+              34        1            0.7           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 3071 (0.307) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_40Mut_out/sw-cache-2536409692857913001
+    writing parameters (4.4 sec)
+        water time: 288.5
+  writing hmms (41.8 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (3.9 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 19.6
+      hmm step time: 161.4
+  writing hmms (41.8 sec)
+      total time: 1105.1
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_40Mut_out/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 3071 (0.307) unproductive
+        water time: 5.4
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 10.7
+      hmm step time: 148.7
+      total time: 1259.6
+root@90c988e6830c:/partis# ./bin/partis run-viterbi --infname /host/home/davi/Bureau/Simulated/simple_plus_indels_80Mut_out.fa --outfname /host/home/davi/Bureau/80mut-partis-viterbi.csv
+  parameter dir '_output/_host_home_davi_Bureau_Simulated_simple_plus_indels_80Mut_out' does not exist, so caching a new set of parameters before running action 'run-viterbi'
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+caching parameters
+smith-waterman   (removing less-likely alleles) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          408.5           6.6
+            5548        1          223.0           5.4
+              34        1            1.3           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 5527 (0.553) unproductive
+  removing least likely alleles (10000 total counts)
+     genes to keep           counts (snps)      removed counts     removed genes 
+       hv3-3501                  168      
+       hv1/OR21-101              165      
+       hv1/OR15-502               87  (4) 
+       hv3/OR16-1301             163      
+       hv3-2504                  162      
+       hv1-2401                  162      
+       hv3/OR16-901              157      
+       hv3-38-301                157      
+       hv3/OR16-1201             156      
+       hv3-43D01                 156      
+       hv3-4301                   94  (4)               93            hv3-4302 
+       hv1/OR15-901              152      
+       hv2/OR16-501              151      
+       hv2-2601                  142      
+       hv7-8101                  142      
+       hv3/OR16-602              140      
+       hv3-NL101                 135      
+       hv3-64D06                 130      
+       hv3-6405                   59  (2)               71            hv3-6403 hv3-6404 
+       hv1-5801                  100      
+       hv1-5802                   61  (1) 
+       hv6-102                    95      
+       hv6-101                    74  (1) 
+       hv1-801                    94      
+       hv1-802                    58  (1) 
+       hv3/OR16-802               94      
+       hv3/OR16-801               81  (3) 
+       hv1-302                    88      
+       hv1-301                    59  (6) 
+       hv3-1602                   88      
+       hv3-1601                   78  (2) 
+       hv3-7302                   84      
+       hv3-7301                   73  (1) 
+       hv2-70D04                  78      
+       hv2-70D14                  63  (1)               56            hv2-7013 hv2-7001 hv2-7012 hv2-7010 hv2-7011 
+       hv3-7401                   77      
+       hv3-7403                   50  (2)               42            hv3-7402 
+       hv4/OR15-802               75      
+       hv4/OR15-801               66  (3)               65            hv4/OR15-803 hv4-402 hv4-401 
+       hv3-7201                   75      
+       hv3-902                    74      
+       hv3-903                    50  (2)               44            hv3-901 
+       hv3-2002                   74      
+       hv3-2001                   69  (1) 
+       hv3-3803                   74      
+       hv3-3802                   54  (1)               51            hv3-3801 
+       hv1-4601                   73      
+       hv1-4602                   55  (1)               35            hv1-4603 
+       hv4-38-201                 71      
+       hv4-38-202                 71  (1) 
+       hv1-69-201                 64      
+       hv3-703                    64      
+       hv3-701                    58  (1)               39            hv3-702 
+       hv1/OR15-102               61      
+       hv1/OR15-103               43  (2)               51            hv1/OR15-101 hv1/OR15-104 
+       hv3-6602                   58      
+       hv3-5302                   52  (6)              197            hv3-6603 hv3-5303 hv3-5304 hv3-6601 hv3-5301 hv3-6604 
+       hv1-1801                   56      
+       hv1-1804                   42  (1)               16            hv1-1803 
+       hv3/OR16-1002              54      
+       hv3/OR16-1003              50  (2)               49            hv3/OR16-1001 
+       hv1-6901                   53      
+       hv1-6909                   23  (4)              134            hv1-6913 hv1-6912 hv1-6906 hv1-6911 hv1-6910 hv1-6914 hv1-6905 hv1-6908 hv1-6904 hv1-6902 
+       hv3-4802                   53      
+       hv3-4804                   36  (2)               18            hv3-4801 
+       hv3-4803                   51      
+       hv3-2102                   46      
+       hv3-2104                   43  (2)               55            hv3-2103 hv3-2101 
+       hv5-10-104                 46      
+       hv5-10-103                 37  (2)               28            hv5-10-101 
+       hv1-205                    44      
+       hv1-203                    34  (3)               73            hv1-202 hv1-204 hv1-201 
+       hv1-4502                   42      
+       hv1-4501                   39  (1) 
+       hv3/OR15-705               42      
+       hv3/OR15-703               39  (1)               59            hv3/OR15-702 hv3/OR15-701 
+       hv5-5103                   42      
+       hv5-5102                   38  (3)               44            hv5-5101 hv5-5104 
+       hv3-4904                   41      
+       hv3-4902                   29  (4)               72            hv3-4905 hv3-4903 hv3-4901 
+       hv3-3004                   40      
+       hv3-30-302                 35  (2)              362            hv3-3305 hv3-3306 hv3-30-301 hv3-3303 hv3-3010 hv3-3009 hv3-3302 hv3-3003 hv3-3301 hv3-3014 hv3-3019 hv3-3013 hv3-3006 hv3-3008 hv3-3016 hv3-3017 hv3-3007 hv3-3012 hv3-3001 hv3-3018 hv3-3015 hv3-3011 hv3-3005 hv3-3002 
+       hv3-1505                   39      
+       hv3-1502                   27  (2)               71            hv3-1507 hv3-1504 hv3-1506 hv3-1501 
+       hv3-2302                   37      
+       hv3-23D02                  29  (3)               21            hv3-23D01 
+       hv3-2303                   37      
+       hv3-2305                   28  (3) 
+       hv3-6402                   36      
+       hv3-6401                   33  (2) 
+       hv4-6103                   36      
+       hv4-6108                   13  (2)                9            hv4-6101 
+       hv3-3304                   36      
+       hv3-1304                   36      
+       hv3-1301                   27  (1)               48            hv3-1305 hv3-1303 
+       hv4-2803                   34      
+       hv4-2805                   32  (1)               95            hv4-2806 hv4-2804 hv4-2802 hv4-2807 hv4-2801 
+       hv4-3902                   32      
+       hv4-3907                   27  (4)               47            hv4-3901 hv4-3906 hv4-3905 
+       hv3-1105                   32      
+       hv3-1106                   27  (1)               59            hv3-1101 hv3-1103 hv3-1104 
+       hv4-30-407                 29      
+       hv4-30-206                 28      
+       hv4-30-205                 25  (5)               33            hv4-30-201 hv4-30-202 
+       hv4-5902                   28      
+       hv4-5908                   22  (3)               64            hv4-5901 hv4-5904 hv4-5905 hv4-408 hv4-5903 hv4-5907 
+       hv4-30-401                 27      
+       hv4-3103                   26  (5)               61            hv4-30-402 hv4-3104 hv4-3102 hv4-3101 hv4-3110 
+       hv3-1302                   27      
+       hv4-30-203                 26      
+       hv2-501                    24      
+       hv2-509                    22  (3)               91            hv2-508 hv2-504 hv2-505 hv2-502 hv2-506 
+       hv7-4-102                  24      
+       hv7-4-104                  22  (1)               32            hv7-4-101 hv7-4-105 
+       hv4-6102                   21      
+       hv4-6105                   21      
+       hv4-407                    20      
+       hv4-30-204                 19      
+       hv4-5906                   18      
+       hv3-1503                   17      
+       hv3-1508                   14  (6) 
+       hv4-5910                   16      
+       hv4-6106                   15                     2            hv4-6107 
+       hv4-3401                   14      
+       hv4-3412                   13  (1)               42            hv4-3404 hv4-3402 hv4-3405 hv4-3408 
+       hv4-3105                   14      
+       hv4-3413                   13      
+       hv2-7009                   12      
+       hv4-30-406                 12      
+       hv4-3410                   11      
+       hv4-3409                   10      
+       hv2-7008                    6      
+       hv2-7002                    5  (2)               10            hv2-7003 hv2-7007 hv2-7006 
+       hv4-405                     5                     5            hv4-403 hv4-404 
+       hv4-3109                    5                     8            hv4-3107 hv4-3108 hv4-3106 hv4-30-403 
+       hv4-3403                    5                     5            hv4-3406 hv4-3407 
+       hv4-30-404                  5      
+       hv4-6104                    5      
+       none                        -                     4            hv4-406 
+       none                        -                     4            hv4-30-405 
+       none                        -                     2            hv4-3903 
+    keeping 138 v genes
+    removing 149 v genes: 17 with no matches, 132 with unconvincing matches (2367 / 10000 queries had their best match removed)
+        water time: 648.6
+smith-waterman   (writing parameters) 
+        sequences    n_procs     ig-sw time    processing time
+           10000        1          205.7           6.3
+            5548        1          106.7           5.3
+              34        1            0.7           0.0
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 5527 (0.553) unproductive
+        writing sw results to _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_80Mut_out/sw-cache-2536409692857913001
+    writing parameters (3.4 sec)
+        water time: 331.5
+  writing hmms (41.5 sec)
+hmm
+    running 1 proc
+    read output
+    writing parameters (3.1 sec)
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 18.7
+      hmm step time: 199.1
+  writing hmms (41.2 sec)
+      total time: 1262.2
+  note:! running on 10000 sequences spread over 1 processes. This will be kinda slow, so it might be a good idea to set --n-procs N to the number of processors on your local machine, or look into non-local parallelization with --batch-system.
+
+running viterbi
+smith-waterman 
+        reading sw results from _output/_host_home_davi_Bureau_Simulated_simple_plus_indels_80Mut_out/sw-cache-2536409692857913001
+      info for 10000 / 10000 = 1.000   (0 failed)
+      kept 5527 (0.553) unproductive
+        water time: 5.2
+hmm
+    running 1 proc
+    read output
+        processed 10000 hmm output lines with 10000 sequences in 10000 events  (0 failures)
+         infra time: 10.4
+      hmm step time: 188.5
+      total time: 1456.3
+
