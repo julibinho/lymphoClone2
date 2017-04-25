@@ -1,0 +1,23 @@
+Analysis Date: Tue Apr 25 15:37:26 CEST 2017
+Input file(s): /home/davi/Bureau/out_clones.vdjca
+Output file: /home/davi/Bureau/out_clones_assemble.clns
+Version: 2.1.1; built=Thu Mar 02 23:03:41 CET 2017; rev=9cbb23c; lib=repseqio.v1.2
+Analysis time: 14,15s
+Command line arguments: assemble -r /home/davi/Bureau/report_assemble_sim_clone.txt /home/davi/Bureau/out_clones.vdjca /home/davi/Bureau/out_clones_assemble.clns
+Final clonotype count: 18451
+Average number of reads per clonotype: 12,65
+Reads used in clonotypes, percent of total: 233349 (50,06%)
+Reads used in clonotypes before clustering, percent of total: 466143 (100%)
+Number of reads used as a core, percent of used: 466143 (100%)
+Mapped low quality reads, percent of used: 0 (0%)
+Reads clustered in PCR error correction, percent of used: 232794 (49,94%)
+Reads pre-clustered due to the similar VJC-lists, percent of used: 0 (0%)
+Reads dropped due to the lack of a clone sequence: 10 (0%)
+Reads dropped due to low quality: 0 (0%)
+Reads dropped due to failed mapping: 0 (0%)
+Reads dropped with low quality clones: 0 (0%)
+Clonotypes eliminated by PCR error correction: 37296
+Clonotypes dropped as low quality: 0
+Clonotypes pre-clustered due to the similar VJC-lists: 0
+IGH chains: 18451 (100%)
+======================================

@@ -1,0 +1,13 @@
+Analysis Date: Tue Apr 25 15:26:32 CEST 2017
+Input file(s): /home/davi/Bureau/Clones_juliana/clones.fasta
+Output file: /home/davi/Bureau/out_clones.vdjca
+Version: 2.1.1; built=Thu Mar 02 23:03:41 CET 2017; rev=9cbb23c; lib=repseqio.v1.2
+Analysis time: 1,55m
+Command line arguments: align -r /home/davi/Bureau/simulated_clone.txt /home/davi/Bureau/Clones_juliana/clones.fasta /home/davi/Bureau/out_clones.vdjca
+Total sequencing reads: 466153
+Successfully aligned reads: 466153 (100%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 466153 (100%)
+======================================
