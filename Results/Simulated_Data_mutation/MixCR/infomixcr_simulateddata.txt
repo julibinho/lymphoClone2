@@ -1,0 +1,91 @@
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_nomut.txt /home/davi/Bureau/Simulated/simple_plus_indels.fasta /home/davi/Bureau/out_0mut_Mixcr.vdjcals
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 19,9%  ETA: 00:00:04
+Alignment: 45,6%  ETA: 00:00:02
+Alignment: 75,5%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,62s
+Total sequencing reads: 10000
+Successfully aligned reads: 10000 (100%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 10000 (100%)
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_5mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_5Mut_out.fasta /home/davi/Bureau/out_5mut_Mixcr.vdjca
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 17,2%  ETA: 00:00:04
+Alignment: 41,8%  ETA: 00:00:02
+Alignment: 75,6%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,48s
+Total sequencing reads: 10000
+Successfully aligned reads: 10000 (100%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 10000 (100%)
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_10mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_10Mut_out.fasta /home/davi/Bureau/out_10mut_Mixcr.vdjca
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 21,1%  ETA: 00:00:03
+Alignment: 48,1%  ETA: 00:00:01
+Alignment: 81,9%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,34s
+Total sequencing reads: 10000
+Successfully aligned reads: 10000 (100%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 10000 (100%)
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_20mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_20Mut_out.fasta /home/davi/Bureau/out_20mut_Mixcr.vdjca
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 25,7%  ETA: 00:00:02
+Alignment: 50%  ETA: 00:00:02
+Alignment: 80,8%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,43s
+Total sequencing reads: 10000
+Successfully aligned reads: 9992 (99,92%)
+Alignment failed because of absence of J hits: 8 (0,08%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 9992 (100%)
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_40mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_40Mut_out.fasta /home/davi/Bureau/out_40mut_Mixcr.vdjca
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 18,7%  ETA: 00:00:04
+Alignment: 42,9%  ETA: 00:00:02
+Alignment: 73,8%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,68s
+Total sequencing reads: 10000
+Successfully aligned reads: 9907 (99,07%)
+Alignment failed because of absence of J hits: 92 (0,92%)
+Alignment failed because of low total score: 1 (0,01%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 9907 (100%)
+davi@DAVI-PC:~/.linuxbrew/Cellar/mixcr/2.1.1-1/bin$ ./mixcr align -r /home/davi/Bureau/reportMixcr_80mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_80Mut_out.fasta /home/davi/Bureau/out_80mut_Mixcr.vdjca
+Reference library: repseqio.v1.2:9606 (1353156c3504ab36ef955667a3e344d1)
+Alignment: 0%
+Alignment: 16,2%  ETA: 00:00:05
+Alignment: 41,7%  ETA: 00:00:02
+Alignment: 74,4%  ETA: 00:00:00
+============= Report ==============
+Analysis time: 4,44s
+Total sequencing reads: 10000
+Successfully aligned reads: 8933 (89,33%)
+Alignment failed, no hits (not TCR/IG?): 1 (0,01%)
+Alignment failed because of absence of J hits: 1056 (10,56%)
+Alignment failed because of low total score: 10 (0,1%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 8933 (100%)
+

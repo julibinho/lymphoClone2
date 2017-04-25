@@ -1,0 +1,16 @@
+Analysis Date: Tue Apr 25 15:12:11 CEST 2017
+Input file(s): /home/davi/Bureau/Simulated/simple_plus_indels_80Mut_out.fasta
+Output file: /home/davi/Bureau/out_80mut_Mixcr.vdjca
+Version: 2.1.1; built=Thu Mar 02 23:03:41 CET 2017; rev=9cbb23c; lib=repseqio.v1.2
+Analysis time: 4,44s
+Command line arguments: align -r /home/davi/Bureau/reportMixcr_80mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_80Mut_out.fasta /home/davi/Bureau/out_80mut_Mixcr.vdjca
+Total sequencing reads: 10000
+Successfully aligned reads: 8933 (89,33%)
+Alignment failed, no hits (not TCR/IG?): 1 (0,01%)
+Alignment failed because of absence of J hits: 1056 (10,56%)
+Alignment failed because of low total score: 10 (0,1%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 8933 (100%)
+======================================

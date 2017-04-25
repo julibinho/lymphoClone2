@@ -1,0 +1,13 @@
+Analysis Date: Tue Apr 25 14:38:25 CEST 2017
+Input file(s): /home/davi/Bureau/Simulated/simple_plus_indels_10Mut_out.fasta
+Output file: /home/davi/Bureau/out_10mut_Mixcr.vdjca
+Version: 2.1.1; built=Thu Mar 02 23:03:41 CET 2017; rev=9cbb23c; lib=repseqio.v1.2
+Analysis time: 4,34s
+Command line arguments: align -r /home/davi/Bureau/reportMixcr_10mut.txt /home/davi/Bureau/Simulated/simple_plus_indels_10Mut_out.fasta /home/davi/Bureau/out_10mut_Mixcr.vdjca
+Total sequencing reads: 10000
+Successfully aligned reads: 10000 (100%)
+Overlapped: 0 (0%)
+Overlapped and aligned: 0 (0%)
+Overlapped and not aligned: 0 (0%)
+IGH chains: 10000 (100%)
+======================================
