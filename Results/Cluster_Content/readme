@@ -1,0 +1,7 @@
+Résultat de  "Clonal grouping" de differents outils sur des sequences simulées
+LE format des fichiers est 
+
+Numero de cluster     seq1 seq2 seq3 ...
+
+
+Entre Numero de cluster et les seq il y a un \t, entre les seq il y a un simple espace " ".
