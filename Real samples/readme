@@ -1,1 +1,2 @@
-none
+file format :
+<Name of sequence in Fasta file>  <Clone number>   <V> <D> <J> <number of sequence in this colone> 
